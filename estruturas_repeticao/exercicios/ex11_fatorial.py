@@ -1,10 +1,10 @@
 def fatorial():
     numero = int(input("Digite um número: "))
-    total = 1
+    resultado = 1
 
-    for i in range (1, numero + 1):
-        
+    for i in range(numero, 0, -1):
+        resultado *= i
 
-    print(f"Total = {total}")
+    print(resultado)
 
 fatorial()
