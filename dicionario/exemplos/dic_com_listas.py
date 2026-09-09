@@ -1,5 +1,3 @@
-aluno = {}
-
 def calcular_media(notas):
     return sum(notas) / len(notas)
 
@@ -18,6 +16,7 @@ def aluno_completo():
     }
 
     aluno["media"] = calcular_media(aluno["notas"])
-    print(f"Média do aluno {aluno["nome"]}: {aluno["media"]}")
+    print(f"Notas do aluno '{aluno["nome"]}': {aluno["notas"]}")
+    print(f"Média do aluno '{aluno["nome"]}': {aluno["media"]}")
 
 aluno_completo()
